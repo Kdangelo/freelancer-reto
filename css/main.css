@@ -88,8 +88,11 @@ li a:hover {
 	  border: none;
 	  border-top: solid 5px;
 }
+/*formato seccion portafolio*/
 .portafolio {
 	padding: 100px 0px;
+	margin: 0px 218px;
+
 }
 h2 {
 	text-align: center;
@@ -99,4 +102,101 @@ h2 {
 	font-weight: bold;
 	color: #212529;
 	line-height: 57.6px;
+}
+.dos {
+	color: #2c3e50;
+	margin-bottom: 30px;
+}
+.foto {
+	display: inline-block;
+	width: 350px;
+	height: 253px;
+	padding: 0px 15px;
+	margin-bottom: 30px;
+}
+/*formato seccion about*/
+.about {
+	background-color: #18bc9c;
+	padding: 100px 0px;
+}
+.about h2 {
+	color: #fff;
+}
+.start {
+	background-color: #fff;
+	border-color: #fff;
+	max-width: 250px;
+	margin: 25px auto 20px;
+	padding: 0;
+	border: none;
+	border-top: solid 5px;
+}
+.about_text p {
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	line-height: 1.5;
+	width: 350px;
+	display: inline-block;
+}
+.about_text .one {
+	margin-left: 430px;
+	margin-top: 20px;
+}
+.about_text .two {
+	margin-left: 35px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+.about a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	color: #fff;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.5;
+	border: 2px solid #fff;
+	margin: 0px 700px;
+	padding: 6px 0px;
+	border-radius: 5%;
+}
+.about a:hover {
+	color: #18bc9c;
+	background-color: #fff;
+}
+.contact {
+	padding: 100px 0px;
+}
+.form p {
+	font-family: 'Lato', sans-serif;
+	color: #868E96;
+	line-height: 1.5;
+	font-size: 1.5em;
+	font-weight: 400;
+	margin-left: 400px;
+}
+.form hr {
+	display: block;
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-bottom: 40px;
+}
+.message {
+	margin-bottom: 200px;
+}
+.contact a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	color: #fff;
+	font-weight: 550;
+	font-size: 22px;
+	line-height: 1.5;
+	border-radius: 5%;
+	background-color: #18bc9c;
+	margin-left: 400px;
+	margin-right: 1110px;
+	padding: 6px 0px;
 }
